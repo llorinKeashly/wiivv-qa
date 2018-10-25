@@ -15,11 +15,11 @@ Seems to be a common issue from what I saw online. There is a way around it, but
 run it in headless mode.
 
 Setup was:
-`npm install codeceptjs puppeteer`
+`npm install codeceptjs puppeteer`,
 `./node_modules/.bin/codeceptjs init`
 To run tests
 `./node_modules/.bin/codeceptjs run --steps`
 
 To run tests in headless mode you may have to go into `codecept.json` and change `show: true` to `show: false`
 
-I apologize, but for the sake of the test I figured it would be goog to get it to you as soon as possible.
+I apologize for the flakyness of the test, but for the sake of the test I figured it would be goog to get it to you as soon as possible.
