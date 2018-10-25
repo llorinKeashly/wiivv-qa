@@ -1,0 +1,27 @@
+{
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "https://wiivv.com/",
+      "show": true,
+      "waitForNavigation": "networkidle0"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "homePage": "./pages/home.js"
+  },
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "gherkin": {},
+  "plugins": {
+    "screenshotOnFail": {
+      "enabled": true
+    }
+  },
+  "tests": "./*_test.js",
+  "timeout": 15000,
+  "name": "wiivv_test"
+}
